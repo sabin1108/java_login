@@ -9,7 +9,7 @@ public class SendEmail {
     public static void sendEmail(String to, String subject, String text) {
         // 이메일 관련 정보
         final String username = "sabin1108@naver.com"; // 발신자 이메일 주소
-        final String password = "john72005770@"; // 발신자 이메일 비밀번호
+        final String password = ""; // 발신자 이메일 비밀번호
 
         // 이메일 서버 설정
         Properties props = new Properties();
